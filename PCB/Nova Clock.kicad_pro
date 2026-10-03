@@ -526,7 +526,7 @@
       "netlist": "",
       "plot": "../gerbers/",
       "specctra_dsn": "",
-      "step": "../../Nova Clock Final submission/Nova Clock.step",
+      "step": "../../Nova-Clock V2/Nova Clock-V2.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
