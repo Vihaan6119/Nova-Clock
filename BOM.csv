@@ -1,0 +1,19 @@
+Item,Description,Quantity,Unit Price (USD),Total Price (USD),URL,Notes
+Seeed XIAO ESP32-C3,Main microcontroller board,1,4.99,4.99,https://www.seeedstudio.com/Seeed-XIAO-ESP32C3-p-5431.html,Current listed price; kit item
+MX-style keyboard switch,Mechanical keyboard switch,4,0.35,1.4,https://cdn.shopify.com/s/files/1/0565/8070/2297/files/SPEC-KS-3Y10B050NW-X1-Yellow_Switch.pdf?v=1675841028,Estimated equivalent price; kit provides 12
+White blank DSA keycap,White DSA keycap for MX-style switch,4,0.58,2.32,https://www.adafruit.com/product/5068,Reference price for 12-pack white DSA/MX-compatible keycaps; kit provides 12
+1N4148 through-hole diode,Switch-matrix diode,4,0.15,0.6,https://www.adafruit.com/product/1641,Reference price from 10-pack; kit provides 12
+2.25-inch TFT display,SPI TFT display for the clock,1,7.54,7.54,https://www.pricearchive.org/aliexpress.com/item/1005012621453638,Reference price for 2.25-inch 8-pin ST7789 76x284 module; verify exact kit module
+2.54 mm 1x8 male header,8-pin male pin header for TFT connection,1,0.87,0.87,https://www.tme.eu/us/en-us/details/tsw-108-07-g-s/pin-headers/samtec/,Reference price for a straight 1x8 2.54 mm header
+20 cm female-female jumper wire,Female-female jumper wire for TFT,8,0.12,0.96,https://protosupplies.com/product/jumper-wires-femalefemale-40-x-8/,Approximate per-wire price derived from a 20 cm F-F jumper cable; kit provides 8
+3.3 V piezo buzzer,Alarm/status buzzer,1,,,,Kit-supplied; exact part price not available
+M3x5x4 heat-set insert,Threaded brass insert for enclosure,8,0.09,0.72,https://www.viperworx.uk/product/heat-set-inserts-m3x5x4,Approximate per-insert price from a 10-pack; kit provides 8
+M3x8 screw,Screw for PCB/display retainer,4,0.35,1.4,https://www.performance-pcs.com/products/m3-x-8mm-black-oxide-steel-socket-cap-set-of-4-socket-m3-8-bk,Reference price for a 4-pack
+M3x16 screw,Main enclosure closure screw,4,,,,Kit-supplied; exact part price not available
+Custom 2-layer PCB,Custom PCB designed in KiCad,1,,,https://github.com/Vihaan6119/Nova-Clock/tree/main/PCB,Manufacturing cost depends on PCB service/order; latest Gerbers are in Production
+3D-printed enclosure,"Custom Nova Clock base, lid and display retainer",1,,,https://github.com/Vihaan6119/Nova-Clock/tree/main/CAD,Printing cost depends on material and printer; source and complete STEP are included
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+Total Price (USD):,$20.80 ,,,,,
