@@ -58,16 +58,16 @@ The repository contains the KiCad project and PCB source files, the CAD source a
 
 | Component | Quantity Used | Quantity in Kit | Description | Link |
 |---|---:|---:|---|---|
-| Seeed Studio XIAO ESP32-C3 | 1 | 1 | Main microcontroller | [Seeed documentation](https://wiki.seeedstudio.com/XIAO_ESP32C3_Getting_Started/) |
-| MX-style keyboard switch | 4 | 12 | Mechanical switches | [Switch specification](https://cdn.shopify.com/s/files/1/0565/8070/2297/files/SPEC-KS-3Y10B050NW-X1-Yellow_Switch.pdf?v=1675841028) |
-| White blank DSA keycap | 4 | 12 | Keycaps for the switches | — |
-| 1N4148 through-hole diode | 4 | 12 | Switch matrix diodes | [Vishay 1N4148 datasheet](https://www.vishay.com/docs/81857/1n4148.pdf) |
-| 2.25-inch TFT display | 1 | 1 | Main clock display | — |
-| 3.3 V piezo buzzer | 1 | 1 | Startup and alarm sound | — |
-| 2.54 mm 8-pin male header | 1 | 1 | Display connector | — |
-| 20 cm female-female jumper wire | 8 | 8 | Display wiring | — |
-| M3x5x4 heat-set insert | 8 | 8 | Case, PCB, and display mounting | [Insert source](https://www.aliexpress.us/item/2255800046543591.html) |
-| M3x8 screw | 4 | 4 | PCB/display-retainer mounting | — |
-| M3x16 screw | 4 | 4 | Main enclosure screws | — |
-| Custom 2-layer PCB | 1 | 1 | PCB designed in KiCad | [Project PCB](PCB/) |
-| 3D-printed enclosure | 1 | 1 | Custom Nova Clock case | [Project CAD](CAD/) |
+| Seeed Studio XIAO ESP32-C3 | 1 | 1 | Main microcontroller | BLARE Kit |
+| MX-style keyboard switch | 4 | 12 | Mechanical switches | BLARE Kit |
+| White blank DSA keycap | 4 | 12 | Keycaps for the switches | BLARE Kit |
+| 1N4148 through-hole diode | 4 | 12 | Switch matrix diodes | BLARE Kit|
+| 2.25-inch TFT display | 1 | 1 | Main clock display | BLARE Kit |
+| 3.3 V piezo buzzer | 1 | 1 | Startup and alarm sound | BLARE Kit |
+| 2.54 mm 8-pin male header | 1 | 1 | Display connector | BLARE Kit |
+| 20 cm female-female jumper wire | 8 | 8 | Display wiring | BLARE Kit |
+| M3x5x4 heat-set insert | 8 | 8 | Case, PCB, and display mounting | BLARE Kit |
+| M3x8 screw | 4 | 4 | PCB/display-retainer mounting | BLARE Kit |
+| M3x16 screw | 4 | 4 | Main enclosure screws | BLARE Kit |
+| Custom 2-layer PCB | 1 | 1 | PCB designed in KiCad | [Project PCB](PCB/)  from JLCPCB. Price: $11.1-13.1|
+| 3D-printed enclosure | 1 | 1 | Custom Nova Clock case | [Project CAD](CAD/) from printing Legion|
