@@ -36,7 +36,7 @@ Then I switched to tinkercad. there i imported PCB, and made the base and the li
 
 So then again i switched to Onshape (here i finished making it). I first imported the prototype case i build in tinker cad and tried to build on it. But failed. Then i watched a bunch of tutorials from which, i learn how onshape work. The i started making the PCB enclosure/case. Then after that was done, i imported the PCB .step file. to see if it would fit, and it didn't fit. 
 
-Then I had assembled the full thing. i mean, got all the 4 thing (the base, the top lid, the retainer and the PCB with all the components) and assembled it showing how it will be looking after i have all the components with me.
+Then I had assembled the full thing. i mean, got all the 3 thing and assembled it showing how it will be looking after i have all the components with me.
 
 ## Important thing about viewing the the full assemble .step file
 
