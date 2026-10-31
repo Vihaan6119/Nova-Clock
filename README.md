@@ -38,10 +38,6 @@ So then again i switched to Onshape (here i finished making it). I first importe
 
 Then I had assembled the full thing. i mean, got all the 4 thing (the base, the top lid, the retainer and the PCB with all the components) and assembled it showing how it will be looking after i have all the components with me.
 
-=======
->>>>>>> 87c5c55c89b42e5a2c28242ddb479f23e82a4cfe
-Then i exported all the .step file and uploaded it to this repo. 
-
 ## Important thing about viewing the the full assemble .step file
 
 Unfortunaltly, you have to do a little more work in order to see the full assemble 3D model. (You will also come across an error when you ulpad the .step file of the PCB and the full assembly file. This is due to the 3d model of the ESP32. There is nothing to worry. It is just the issue with the 3D model. I couldn't find a solution to it. )
