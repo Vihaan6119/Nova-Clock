@@ -4,14 +4,14 @@ Nova Clock is a desktop alarm clock which uses a Seeed Studio XIAO ESP32-C3. It 
 
 ## Why I made it
 
-I wanted to build a project that was more than just a basic clock. I wanted to learn how a real hardware product comes together, from designing the PCB and enclosure to writing the firmware and planning how the final device would actually be used.
+I wanted to build a project that was more than just a basic clock. I wanted to learn how a real hardware product is build, from designing the PCB and enclosure to writing the firmware and planning how the final device would actually be used.
 I also wanted the clock to be something I could keep improving later, especially the display styles, alarms, sounds, and the way it can be used from different device.
 
 ## Project
 
 The final design uses a custom PCB with the XIAO ESP32-C3 as the main controller for the clock. The four switches are used for local controls like if the alarm is ringing, then the we can use the switches to turn the alarm off. The TFT display is used for the clock and other information. The buzzer make the sound for the alarms and other things which we like to add.
 
-The enclosure was designed around the PCB so the board can be mounted securely. There is a cutout on the back of the enclosure so that we can easily connect a power/data cable. The display is held in place with a separate retainer so it can be removed without having to glue it into the case.
+The enclosure was designed around the PCB so the board can be mounted securely. There is a cutout on the back of the enclosure so that we can easily connect a power/data cable. The display taped onto the lid to make it easier to keep it there without making the build more complex.
 
 ## How I planned the firmware
 
@@ -32,26 +32,30 @@ The current firmware is just the PROTOTYPE and will be way different from the cu
 
 I have started designing the case in openSAD as i thought that this will be the easiest from all the other softwares out there, and it proved me wrong. As i was making the enclosure, it was getting harder to get the precise geomatrical measurements into it, and i also could not check if the PCB all the components would fit in it. 
 
-Then I switched to tinkercad. there i imported PCB, and made the base and the lid. But here too, i did not understand how to make the holes on the shapes. 
+Then I switched to tinkercad. there i imported PCB, and made the base and the lid. But here too, i did not understand how to make the holes/cutouts in the solids/shapes. 
 
 So then again i switched to Onshape (here i finished making it). I first imported the prototype case i build in tinker cad and tried to build on it. But failed. Then i watched a bunch of tutorials from which, i learn how onshape work. The i started making the PCB enclosure/case. Then after that was done, i imported the PCB .step file. to see if it would fit, and it didn't fit. 
 
 It took me a lot of time correcting it and making it properly fit the PCB and all the parts. 
-Then I had assembled the full thing. i mean, got all the 4 thing ([text](<CAD/Nova Clock Full Assembly.step>) [text](CAD/Nova_Clock_Final_Base.step) [text](CAD/Nova_Clock_Final_Display_Retainer.step) [text](CAD/Nova_Clock_Final_Lid.step)) and assembled it showing how it will be looking after i have all the components with me.
+<<<<<<< HEAD
+Then I had assembled the full thing. i mean, got all the 3 thing and assembled it showing how it will be looking after i have all the components with me.
+=======
+Then I had assembled the full thing. i mean, got all the 4 thing (the base, the top lid, the retainer and the PCB with all the components) and assembled it showing how it will be looking after i have all the components with me.
+>>>>>>> 0f3569fbda5afb9ca852725c65d17417a85a4ca5
 
 Then i exported all the .step file and uploaded it to this repo. 
 
 ## Important thing about viewing the the full assemble .step file
 
-Unfortunaltly, you have to do a little more work in order to see the full assemble 3D model. 
+Unfortunaltly, you have to do a little more work in order to see the full assemble 3D model. (You will also come across an error when you ulpad the .step file of the PCB and the full assembly file. This is due to the 3d model of the ESP32. There is nothing to worry. It is just the issue with the 3D model. I couldn't find a solution to it. )
 
 I have used Onshape in the instruction.
 
-* **uploading:** Import the file **Nova Clock Full Assembly.step** from the folder **CAD** (of my repo).
+* **uploading:** Import the file **Nova Clock Full Assembly_V3.step** from the folder **CAD** (of my repo).
 * It will take aorund 1-2 mins for it to import and load all the file into it.
-* **Selecting the file form the menu:** After the import has finished, there will be load and loads of file. From there you have to open 1 file named **Nova Clock-V2 1**.
+* **Selecting the file form the menu:** After the import has finished, there will be load and loads of file. From there you have to open 1 file named **Nova_Clock_Full_Assembly**.
 
-![alt text](<assets/Screenshot 2026-10-24 124452.png>)
+![alt text](<assets/Screenshot 2026-10-31 191547.png>)
   
 ## Project images
 
@@ -69,7 +73,7 @@ I have used Onshape in the instruction.
 
 ### Project assembly
 
-![alt text](<assets/Screenshot 2026-10-24 124929.png>)
+![alt text](<assets/case_fit (back side).png>)
 
 The display is connected to the PCB using the 8-pin header and jumper wires included in the kit.
 
@@ -97,7 +101,8 @@ The repository has the KiCad project and PCB source files, the CAD source and ST
 | 2.54 mm 8-pin male header | 1 | 1 | Display connector | BLARE Kit |
 | 20 cm female-female jumper wire | 8 | 8 | Display wiring | BLARE Kit |
 | M3x5x4 heat-set insert | 8 | 8 | Case, PCB, and display mounting | BLARE Kit |
-| M3x8 screw | 4 | 4 | PCB/display-retainer mounting | BLARE Kit |
+| M3x8 screw | 4 | 4 | PCB | BLARE Kit |
 | M3x16 screw | 4 | 4 | Main enclosure screws | BLARE Kit |
 | Custom 2-layer PCB | 1 | 1 | PCB designed in KiCad | [Project PCB](PCB/)  from JLCPCB. Price: $11.1-13.1|
 | 3D-printed enclosure | 1 | 1 | Custom Nova Clock case | [Project CAD](CAD/) from printing Legion|
+
