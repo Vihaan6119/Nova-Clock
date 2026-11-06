@@ -36,23 +36,36 @@ Then I switched to tinkercad. there i imported PCB, and made the base and the li
 
 So then again i switched to Onshape (here i finished making it). I first imported the prototype case i build in tinker cad and tried to build on it. But failed. Then i watched a bunch of tutorials from which, i learn how onshape work. The i started making the PCB enclosure/case. Then after that was done, i imported the PCB .step file. to see if it would fit, and it didn't fit. 
 
-Then I had assembled the full thing. i mean, got all the 4 thing (the base, the top lid, the retainer and the PCB with all the components) and assembled it showing how it will be looking after i have all the components with me.
-
-=======
->>>>>>> 87c5c55c89b42e5a2c28242ddb479f23e82a4cfe
-Then i exported all the .step file and uploaded it to this repo. 
+Then I had assembled the full thing. i mean, got all the 3 thing and assembled it showing how it will be looking after i have all the components with me.
 
 ## Important thing about viewing the the full assemble .step file
 
-Unfortunaltly, you have to do a little more work in order to see the full assemble 3D model. (You will also come across an error when you ulpad the .step file of the PCB and the full assembly file. This is due to the 3d model of the ESP32. There is nothing to worry. It is just the issue with the 3D model. I couldn't find a solution to it. )
+Unfortunaltly, you have to do a little more work in order to see the full assemble 3D model. (You will also come across an error when you upload the .step file of the PCB and the full assembly file. This is due to the 3d model of the ESP32. There is nothing to worry. It is just the issue with the 3D model. I couldn't find a solution to it. )
 
 I have used Onshape in the instruction.
 
-* **uploading:** Import the file **Nova Clock Full Assembly_V3.step** from the folder **CAD** (of my repo).
+* **uploading:** Import the file **Nova_Clock_Full_Assembly_V4.step** from the folder **CAD** (of my repo).
 * It will take aorund 1-2 mins for it to import and load all the file into it.
 * **Selecting the file form the menu:** After the import has finished, there will be load and loads of file. From there you have to open 1 file named **Nova_Clock_Full_Assembly**.
 
 ![alt text](<assets/Screenshot 2026-10-31 191547.png>)
+
+
+## wiring table for display soldering
+
+
+| PCB Hole | Signal |
+| :---: | :--- |
+| **1** | GND |
+| **2** | +3.3V |
+| **3** | SCL |
+| **4** | SDA |
+| **5** | RST |
+| **6** | DC |
+| **7** | CS |
+| **8** | BL |
+
+The 8 display wires are soldered directly to the display and to the PCB’s J1 holes 
   
 ## Project images
 
@@ -72,8 +85,6 @@ I have used Onshape in the instruction.
 
 ![alt text](<assets/case_fit (back side).png>)
 
-The display is connected to the PCB using the 8-pin header and jumper wires included in the kit.
-
 ## Files
 
 The repository has the KiCad project and PCB source files, the CAD source and STEP assembly, the firmware, manufacturing files, and the project images.
@@ -92,13 +103,13 @@ The repository has the KiCad project and PCB source files, the CAD source and ST
 | Seeed Studio XIAO ESP32-C3 | 1 | 1 | Main microcontroller | BLARE Kit |
 | MX-style keyboard switch | 4 | 12 | Mechanical switches | BLARE Kit |
 | White blank DSA keycap | 4 | 12 | Keycaps for the switches | BLARE Kit |
-| 1N4148 through-hole diode | 4 | 12 | Switch matrix diodes | BLARE Kit|
+| 1N4148 through-hole diode | 0 | 12 | Switch matrix diodes | BLARE Kit|
 | 2.25-inch TFT display | 1 | 1 | Main clock display | BLARE Kit |
 | 3.3 V piezo buzzer | 1 | 1 | Startup and alarm sound | BLARE Kit |
-| 2.54 mm 8-pin male header | 1 | 1 | Display connector | BLARE Kit |
-| 20 cm female-female jumper wire | 8 | 8 | Display wiring | BLARE Kit |
-| M3x5x4 heat-set insert | 8 | 8 | Case, PCB, and display mounting | BLARE Kit |
-| M3x8 screw | 4 | 4 | PCB | BLARE Kit |
+| 2.54 mm 8-pin male header | 1 | 1 | Display connector (only for testing, the final version will have soldered ends) | BLARE Kit |
+| 20 cm female-female jumper wire | 8 | 8 | Display wiring (only for testing, the final version will have soldered ends) | BLARE Kit |
+| M3x5x4 heat-set insert | 6-8 | 8 | Case, PCB, and display mounting | BLARE Kit |
+| M3x8 screw | 2 | 4 | PCB | BLARE Kit |
 | M3x16 screw | 4 | 4 | Main enclosure screws | BLARE Kit |
 | Custom 2-layer PCB | 1 | 1 | PCB designed in KiCad | [Project PCB](PCB/)  from JLCPCB. Price: $11.1-13.1|
 | 3D-printed enclosure | 1 | 1 | Custom Nova Clock case | [Project CAD](CAD/) from printing Legion|
